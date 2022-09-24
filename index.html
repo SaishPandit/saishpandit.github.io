@@ -1,63 +1,816 @@
 <!DOCTYPE html>
-<html>
-   <title>Portfolio (Saish)</title>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<html lang="en">
 
-.bgimg {
-  background-image: url('./forestbridge.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+  <title>Saish Pandit</title>
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Vendor CSS Files -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+</head>
+
 <body>
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>SaISH</p>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="fa fa-bars mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Saish Pandit</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/saish-pandit-27b488238/" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/_saishh/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.facebook.com/saishp/" class="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/SaIsHP_" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="google-plus" target="_blank"><i class="fa fa-chain-broken"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="fa fa-home"></i><span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="fa fa-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="fa fa-trophy"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="fa fa-file"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="fa fa-book"></i> <span>Portfolio</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="fa fa-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+
+  <div id="overlay-p">
+    <div id="overlayContent">
+        <img id="imgBig" src="" alt="" width="400" />
+        <span><i class="fa fa-times" aria-hidden="true"></i></span>
+    </div>
   </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>35 days left</p>
-  </div>
-  <div class="bottomleft">
-    <p>Wait for something interesting....</p>
-  </div>
-</div>
+
+  <main id="main">
+
+      <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Saish Pandit</h1>
+        <p>I'm <span id="word" style="white-space:pre;" class="typed"></span></p>
+      </div>
+      <div class="scroll-down">
+        <h5>Scroll down to see more</h5>
+        <a href="#about" class="nav-link scrollto">
+          <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </div>
+    </section><!-- End Hero -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about reveal">
+      <div class="container">
+        <div class="section-title">
+          <p class="bg-text">About Me</p>
+          <h2 class="">Know Me More</h2>
+        </div>
+        <div class="row gy-5">
+          <div class="col-lg-7 col-xl-8 text-center text-lg-start">
+            <h2 class="text-7 fw-600 mb-3">I'm <span class="font-primary">Saish Pandit,</span> a Web Developer</h2>
+            <p>WordPress Developer with 2 + years of functional experience designing and managing business websites using WordPress creation tools. Skilled in front-end and back-end development and implementing themes and plugins. Successfully creates attractive and user-friendly websites to meet client expectations in agile environments.</p>
+          </div>
+          <div class="col-lg-5 col-xl-4">
+            <div class="ps-lg-4">
+              <ul class="list-style-2">
+                <li class=""><span class="fw-600 me-2">Name:</span>Saish S Pandit</li>
+                <li class=""><span class="fw-600 me-2">Email:</span><a href="mailto:saishpandit10@gmail.com">saishpandit10@gmail.com</a></li>
+                <li class=""><span class="fw-600 me-2">Age:</span>26</li>
+                <li class="border-0"><span class="fw-600 me-2">From:</span>Goa, India</li>
+              </ul>
+              <a href="/assets/Saish Pandit CV.pdf" class="btn btn-primary rounded-pill" download>Download CV</a> </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg reveal">
+      <div class="container">
+
+        <div class="section-title">
+          <p class="bg-text">skills</p>
+          <h2 class="">what i do</h2>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6" data-aos="fade-up">
+           
+            <div class="progress">
+              <span class="skill">HTML <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="90"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="90"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="75"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Webflow <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="75"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="70"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="90"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">jQuery <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="75"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">AJAX <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div data-progress="50"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <ul>
+          <li><i class="fa fa-chevron-right"></i>Excellent ability to troubleshoot and work with clients to solve problems or find solutions to requests.</li>
+          <li><i class="fa fa-chevron-right"></i>Solid background in managing interactive elements of websites to create a fulfilling user experience based upon client guidelines.</li>
+          <li><i class="fa fa-chevron-right"></i>Superior skills in working with a team to create websites that will exceed customer expectations.</li>
+          <li><i class="fa fa-chevron-right"></i>Ability to work well under pressure to meet hard deadlines and stay within budget while still being able to provide clients with exactly what they want.</li>
+          <li><i class="fa fa-chevron-right"></i>Committed to providing secure websites that use the latest methods to protect against all types of threats. Hobbies and Interests</li>
+        </ul>
+      </div>
+      <div class="scroll-dow">
+        <h5>keep scrolling, there is still more to come</h5>
+        <a href="#portfolio" class="nav-link scrollto">
+          <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume reveal">
+      <div class="container">
+
+        <div class="section-title">
+          <p class="bg-text">summary</p>
+          <h2 class="">resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Saish Pandit</h4>
+              <p><em>Proficient and creative WordPress developer with a strong history in website management and development. Experienced in SEO and PPC campaign creation. Expert in all aspects of WordPress website creation, including design, plug-ins, and implementation. Skilled in creating engaging and interactive websites.</em></p>
+              <ul>
+                <li>Goa, India</li>
+                <li>saishpandit10@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>SRIEIT</h4>
+              <h5>Mar 2015 - Aug 2019</h5>
+              <p><b>Bachelor of Engineering</b></p>
+              <p>Computer Engineering</p>
+            </div>
+            <div class="resume-item">
+              <h4>S S Samitis Higher Secondary School</h4>
+              <h5>May 2012 - Mar 2015</h5>
+              <p><b>HSSC</b></p>
+              <p>Field of study - Science</p>
+            </div>
+            <div class="resume-item">
+              <h4>A.J.D.E Almeida High School</h4>
+              <h5>Mar 2010 - Mar 2012</h5>
+              <p><b>SSC</b></p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>WordPress Developer/Designer</h4>
+              <h5>Sept 2020 - Present</h5>
+              <p><b>Online productivity Sol. Pvt</b></p>
+              <ul>
+                <li>Delivered quality commercial websites that met coding standards and cross-browser compatibilities.</li>
+                <li>Used Chrome Inspector and Firebug to debug live sites. </li>
+                <li>Converted design assets into component-based HTML, CSS and JavaScript.</li>
+                <li>Designed responsive, mobile-first websites from design concepts.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Web developer / Web designer</h4>
+              <h5>Nov 2019 - Feb 2020</h5>
+              <p><b>Coderix.io</b></p>
+              <ul>
+                <li>Worked as an intern for 3 months</li>
+                <li>Developed worpress webites based on HTML, CSS, Javascript.</li>
+                <li>Build websites using WordPress.</li>
+                <li>Prepare website proposals to present to clients.</li>
+                <li>Provide technical support to clients.</li>
+                <li>Write coding using HTML and CSS.</li>
+                <li>Design new features for existing websites.</li>
+                <li>Act as the company expert in creating PPC and Google AdWords campaigns to be integrated with new website builds.</li>
+                <li>Customize themes to meet clients’ requirements.</li>
+                <li>Manage a user guide to help clients understand site features and management of website to increase visitor satisfaction.</li>
+                <li>Work on a new mobile development project to expand the company into mobile website development services.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg reveal">
+      <div class="container">
+        <div class="section-title">
+          <p class="bg-text">portfolio</p>
+          <h2 class="">my work</h2>
+        </div>
+
+        <!-- portfolio-wrapper -->
+        <div id="portfolio-wrapper" class="main-portfolio">
+
+          <!-- modal-01 Start -->
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+               <a href="#modal-01" title="">
+                  <img alt="" src="projects/badminton-australia/Hompage.png">
+                  <div class="overlay">
+                     <div class="portfolio-item-meta">
+                       <h5>Badminton Australia</h5>
+                       <p></p>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                  </div>
+               </a>
+            </div>
+        </div> <!-- item end -->
+        <div id="modal-01" class="popup-modal mfp-hide">
+
+          <h1>Badminton Australia</h1>
+          <div class="popup-ds">
+            <div class="img-gall">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+                <div class="carousel-inner">
+                  <div class="item active"><img src="projects/badminton-australia/Hompage.png" alt="Homepage" style="width:100%;"></div>
+                  <div class="item"><img src="projects/badminton-australia/employment.png" alt="Employment" style="width:100%;"></div>
+                  <div class="item"><img src="projects/badminton-australia/falcons.png" alt="Falcons" style="width:100%;"></div>
+                  <div class="item"><img src="projects/badminton-australia/news.png" alt="News" style="width:100%;"></div>
+                  <div class="item"><img src="projects/badminton-australia/tablet.png" alt="Tablet" style="width:100%;"></div>
+                  <div class="item"><img src="projects/badminton-australia/mobile.png" alt="Mobile" style="width:100%;"></div>
+                </div>
+            
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span></a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span></a>
+              </div>
+            </div>
+            <div class="description-box">
+              <h4 class="project-info">Project Info:</h4>
+              <p>WordPress website to show all the information about the Australian badminton events, players and latest news.</p>
+              <p>The website also offers facility to locate a badminton court in Australia, Newsletter subscription, upload Annual Reports and Policies and Contact form for enquires.</p>
+              <h4 class="project-detail">Project Details:</h4>
+              <ul class="list-style-2">
+                <li><span class="text-dark font-weight-600 me-2">Technologies:</span>Wordpress, HTML5, CSS3, PHP, Javascript, Jquery</li>
+                <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+                <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                  <a href="https://www.badminton.org.au/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+              <a class="popup-modal-dismiss">×</a>
+            </div>
+          </div>
+
+        </div><!-- modal-01 End -->
+       <!-- modal-01 End -->
+
+       <!-- modal-02 Start -->
+        <div class="columns portfolio-item">
+         <div class="item-wrap">
+            <a href="#modal-02" title="">
+               <img alt="" src="projects/aged-care/homepage.png">
+               <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Aged Care</h5>
+                    <p></p>
+                  </div>
+                  <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+               </div>
+            </a>
+         </div>
+       </div> <!-- item end -->
+       <div id="modal-02" class="popup-modal mfp-hide">
+
+         <h1>Aged care</h1>
+         <div class="popup-ds">
+           <div class="img-gall">
+
+            <!-- carousal start -->
+             <div id="myCarousel-1" class="carousel slide" data-ride="carousel"> 
+               <div class="carousel-inner">
+                <div class="item active"><img src="projects/aged-care/homepage.png" alt="Homepage" style="width:100%;"></div>
+                <div class="item"><img src="projects/aged-care/leadership.png" alt="Employment" style="width:100%;"></div>
+                <div class="item"><img src="projects/aged-care/submission.png" alt="Falcons" style="width:100%;"></div>
+                <div class="item"><img src="projects/aged-care/contact.png" alt="News" style="width:100%;"></div>
+                <div class="item"><img src="projects/aged-care/tablet.png" alt="Tablet" style="width:100%;"></div>
+                <div class="item"><img src="projects/aged-care/mobile.png" alt="Mobile" style="width:100%;"></div>
+               </div>
+               <a class="left carousel-control" href="#myCarousel-1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                 <span class="sr-only">Previous</span></a>
+               <a class="right carousel-control" href="#myCarousel-1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                 <span class="sr-only">Next</span></a>
+             </div>
+            <!-- carousal end -->
+             
+           </div>
+           <div class="description-box">
+             <h4 class="project-info">Project Info:</h4>
+             <p>The Aged Care Workforce Remote Accord is made up of a group of employers and experts delivering aged care services in remote and very remote areas of Australia</p>
+             <h4 class="project-detail">Project Details:</h4>
+             <ul class="list-style-2">
+               <li><span class="text-dark font-weight-600 me-2">Technologies:</span>Wordpress, HTML5, CSS3, PHP, Javascript, Jquery</li>
+               <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+               <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                 <a href="https://acwra.org.au/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+               </li>
+             </ul>
+             <a class="popup-modal-dismiss">×</a>
+           </div>
+         </div>
+
+       </div><!-- modal-02 End -->
+
+       <!-- modal-03 Start -->
+       <div class="columns portfolio-item">
+         <div class="item-wrap">
+            <a href="#modal-03" title="">
+               <img alt="" src="projects/kooriradio/home.png">
+               <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Koori radio</h5>
+                    <p>music hub</p>
+                  </div>
+                  <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+               </div>
+            </a>
+         </div>
+       </div> <!-- item end -->
+       <div id="modal-03" class="popup-modal mfp-hide">
+
+         <h1>Koori radio</h1>
+         <div class="popup-ds">
+           <div class="img-gall">
+            <!-- carousal start -->
+            <div id="myCarousel-2" class="carousel slide" data-ride="carousel"> 
+              <div class="carousel-inner">
+               <div class="item active"><img src="projects/kooriradio/home.png" alt="Homepage" style="width:100%;"></div>
+               <div class="item"><img src="projects/kooriradio/about.png" alt="Employment" style="width:100%;"></div>
+               <div class="item"><img src="projects/kooriradio/contact.png" alt="Falcons" style="width:100%;"></div>
+               <div class="item"><img src="projects/kooriradio/news.png" alt="News" style="width:100%;"></div>
+               <div class="item"><img src="projects/kooriradio/tablet.png" alt="Tablet" style="width:100%;"></div>
+               <div class="item"><img src="projects/kooriradio/mobile.png" alt="Mobile" style="width:100%;"></div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel-2" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span></a>
+              <a class="right carousel-control" href="#myCarousel-2" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span></a>
+            </div>
+            <!-- carousal end -->
+           </div>
+           <div class="description-box">
+             <h4 class="project-info">Project Info:</h4>
+             <p>koori radio is a leading Aboriginal and Torres Strait Islander arts/media hub based in Redfern, Sydney. Established in 1993.</p>
+             <p>Koori Radio has a 'Live and Deadly' cultural mix of Australian/International Indigenous and black music combined with talkback, news, current affairs, chat and community information.</p>
+             <h4 class="project-detail">Project Details:</h4>
+             <ul class="list-style-2">
+               <li><span class="text-dark font-weight-600 me-2">Technologies:</span>Wordpress, HTML5, CSS3, PHP, Javascript, Jquery</li>
+               <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+               <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                 <a href="https://kooriradio.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+               </li>
+             </ul>
+             <a class="popup-modal-dismiss">×</a>
+           </div>
+         </div>
+
+       </div><!-- modal-03 End -->
+
+       <!-- modal-04 Start -->
+       <div class="columns portfolio-item">
+         <div class="item-wrap">
+            <a href="#modal-04" title="">
+               <img alt="" src="projects/birribee/homepage.png">
+               <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Birribee</h5>
+                    <p></p>
+                  </div>
+                  <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+               </div>
+            </a>
+         </div>
+       </div> <!-- item end -->
+       <div id="modal-04" class="popup-modal mfp-hide">
+
+         <h1>birribee</h1>
+         <div class="popup-ds">
+           <div class="img-gall">
+              <!-- carousal start -->
+              <div id="myCarousel-3" class="carousel slide" data-ride="carousel"> 
+                <div class="carousel-inner">
+                <div class="item active"><img src="projects/birribee/homepage.png" alt="Homepage" style="width:100%;"></div>
+                <div class="item"><img src="projects/birribee/service.png" alt="Employment" style="width:100%;"></div>
+                <div class="item"><img src="projects/birribee/contact.png" alt="Falcons" style="width:100%;"></div>
+                <div class="item"><img src="projects/birribee/partners.png" alt="News" style="width:100%;"></div>
+                <div class="item"><img src="projects/birribee/tablet.png" alt="Tablet" style="width:100%;"></div>
+                <div class="item"><img src="projects/birribee/mobile.png" alt="Mobile" style="width:100%;"></div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel-3" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span></a>
+                <a class="right carousel-control" href="#myCarousel-3" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span></a>
+              </div>
+              <!-- carousal end -->
+           </div>
+           <div class="description-box">
+             <h4 class="project-info">Project Info:</h4>
+             <p>Birribee Housing, Australia’s fastest growing community housing provider enriching the lives of NSW Aboriginal and Torres Strait peoples.</p>
+             <h4 class="project-detail">Project Details:</h4>
+             <ul class="list-style-2">
+               <li><span class="text-dark font-weight-600 me-2">Technologies:</span>Wordpress, HTML5, CSS3, PHP, Javascript, Jquery</li>
+               <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+               <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                 <a href="https://birribee.org.au/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+               </li>
+             </ul>
+             <a class="popup-modal-dismiss">×</a>
+           </div>
+         </div>
+
+       </div><!-- modal-04 End -->
+
+
+      </div><!-- portfolio end -->
+
+       <!-- hide-portfolio -->
+       <div class="hide-portfolio main-portfolio">
+        
+        <!-- modal-05 Start -->
+        <div class="columns portfolio-item">
+          <div class="item-wrap">
+             <a href="#modal-05" title="">
+                <img alt="" src="projects/blackbooks/home.png">
+                <div class="overlay">
+                   <div class="portfolio-item-meta">
+                     <h5>Blackbooks</h5>
+                     <p>division of Tranby Aboriginal Co-operative Limited</p>
+                   </div>
+                   <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                </div>
+             </a>
+          </div>
+        </div> <!-- item end -->
+        <div id="modal-05" class="popup-modal mfp-hide">
+
+          <h1>Blackbooks</h1>
+          <div class="popup-ds">
+            <div class="img-gall">
+              <!-- carousal start -->
+              <div id="myCarousel-5" class="carousel slide" data-ride="carousel"> 
+                <div class="carousel-inner">
+                <div class="item active"><img src="projects/blackbooks/home.png" alt="Homepage" style="width:100%;"></div>
+                <div class="item"><img src="projects/blackbooks/outloud.png" alt="Employment" style="width:100%;"></div>
+                <div class="item"><img src="projects/blackbooks/tablet.png" alt="Tablet" style="width:100%;"></div>
+                <div class="item"><img src="projects/blackbooks/mobile.png" alt="Mobile" style="width:100%;"></div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel-5" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span></a>
+                <a class="right carousel-control" href="#myCarousel-5" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span></a>
+              </div>
+              <!-- carousal end -->
+            </div>
+            <div class="description-box">
+              <h4 class="project-info">Project Info:</h4>
+              <p>BLACKBOOKS®️ across the Australian (Global) literary and publishing supply chain through a series of strategic interventions aimed at creating an eco-system of authority and expertise led by Aboriginal and Torres Strait Islander content creators, cultural producers and community led development organisations.</p>
+              <h4 class="project-detail">Project Details:</h4>
+              <ul class="list-style-2">
+                <li><span class="text-dark font-weight-600 me-2">Technologies:</span>Wordpress, HTML5, CSS3, PHP, Javascript, Jquery</li>
+                <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+                <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                  <a href="https://blackbooks.online/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+              <a class="popup-modal-dismiss">×</a>
+            </div>
+          </div>
+
+        </div><!-- modal-05 End -->
+
+        <!-- modal-06 Start -->
+        <div class="columns portfolio-item">
+          <div class="item-wrap">
+             <a href="#modal-06" title="">
+                <img alt="" src="projects/mediterraneo-kastelorizo/home.png">
+                <div class="overlay">
+                   <div class="portfolio-item-meta">
+                     <h5>Mediterraneo Kastelorizo</h5>
+                     <p>Boutique Hotel</p>
+                   </div>
+                   <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                </div>
+             </a>
+          </div>
+        </div> <!-- item end -->
+        <div id="modal-06" class="popup-modal mfp-hide">
+
+          <h1>Mediterraneo Kastelorizo</h1>
+          <div class="popup-ds">
+            <div class="img-gall">
+              <!-- carousal start -->
+              <div id="myCarousel-6" class="carousel slide" data-ride="carousel"> 
+                <div class="carousel-inner">
+                <div class="item active"><img src="projects/mediterraneo-kastelorizo/home.png" alt="Homepage" style="width:100%;"></div>
+                <div class="item"><img src="projects/mediterraneo-kastelorizo/accomodation.png" alt="Employment" style="width:100%;"></div>
+                <div class="item"><img src="projects/mediterraneo-kastelorizo/gallery.png" alt="Falcons" style="width:100%;"></div>
+                <div class="item"><img src="projects/mediterraneo-kastelorizo/press.png" alt="News" style="width:100%;"></div>
+                <div class="item"><img src="projects/mediterraneo-kastelorizo/Tablet.png" alt="Tablet" style="width:100%;"></div>
+                <div class="item"><img src="projects/mediterraneo-kastelorizo/mobile.PNG" alt="Mobile" style="width:100%;"></div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel-6" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span></a>
+                <a class="right carousel-control" href="#myCarousel-6" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span></a>
+              </div>
+              <!-- carousal end -->
+            </div>
+            <div class="description-box">
+              <h4 class="project-info">Project Info:</h4>
+              <p>Website for a waterfront boutique hotel, located in Greece.</p>
+              <p>It displays information about the hotel, its owner, the rooms, restaurants, other facilities (Yoga, craft shop, etc.).  Has Gallery, facility for Reservation for the rooms.</p>
+              <h4 class="project-detail">Project Details:</h4>
+              <ul class="list-style-2">
+                <li><span class="text-dark font-weight-600 me-2">Technologies:</span>HTML, CSS, JQuery, Javascript</li>
+                <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+                <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                  <a href="https://www.mediterraneo-megisti.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+              <a class="popup-modal-dismiss">×</a>
+            </div>
+          </div>
+
+        </div><!-- modal-06 End -->
+
+        <!-- modal-07 Start -->
+        <div class="columns portfolio-item">
+          <div class="item-wrap">
+             <a href="#modal-07" title="">
+                <img alt="" src="projects/cooj/home.png">
+                <div class="overlay">
+                   <div class="portfolio-item-meta">
+                     <h5>Cooj</h5>
+                     <p></p>
+                   </div>
+                   <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                </div>
+             </a>
+          </div>
+        </div> <!-- item end -->
+        
+        <div id="modal-07" class="popup-modal mfp-hide">
+
+          <h1>Cooj</h1>
+          <div class="popup-ds">
+            <div class="img-gall">
+              <!-- carousal start -->
+              <div id="myCarousel-7" class="carousel slide" data-ride="carousel"> 
+                <div class="carousel-inner">
+                <div class="item active"><img src="projects/cooj/home.png" alt="Homepage" style="width:100%;"></div>
+                <div class="item"><img src="projects/cooj/about.png" alt="Employment" style="width:100%;"></div>
+                <div class="item"><img src="projects/cooj/gallery.png" alt="Falcons" style="width:100%;"></div>
+                <div class="item"><img src="projects/cooj/program.png" alt="News" style="width:100%;"></div>
+                <div class="item"><img src="projects/cooj/tablet.png" alt="Tablet" style="width:100%;"></div>
+                <div class="item"><img src="projects/cooj/mobile.png" alt="Mobile" style="width:100%;"></div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel-7" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span></a>
+                <a class="right carousel-control" href="#myCarousel-7" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span></a>
+              </div>
+              <!-- carousal end -->
+            </div>
+            <div class="description-box">
+              <h4 class="project-info">Project Info:</h4>
+              <p>Goa’s #1 Mental health foundation. Involved in Suicide prevention (one of the few 24x7 hotlines in India) and care for the elderly and mentally challenged.</p>
+              <p>The website displays information about all their programs, activities, the committee members, etc. It has Gallery, downloads of Annual Reports, Events, Contact form, Donation information, FAQs.</p>
+              <h4 class="project-detail">Project Details:</h4>
+              <ul class="list-style-2">
+                <li><span class="text-dark font-weight-600 me-2">Technologies:</span>HTML, CSS, JQuery, Javascript</li>
+                <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+                <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                  <a href="https://cooj.co.in/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+              <a class="popup-modal-dismiss">×</a>
+            </div>
+          </div>
+
+        </div><!-- modal-07 End -->
+
+        <!-- modal-08 Start -->
+        <div class="columns portfolio-item">
+          <div class="item-wrap">
+             <a href="#modal-08" title="">
+                <img alt="" src="projects/property-scouts/home.png">
+                <div class="overlay">
+                   <div class="portfolio-item-meta">
+                     <h5>Property scouts</h5>
+                     <p></p>
+                   </div>
+                   <div class="link-icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                </div>
+             </a>
+          </div>
+        </div> <!-- item end -->
+        <div id="modal-08" class="popup-modal mfp-hide">
+
+          <h1>Property scouts</h1>
+          <div class="popup-ds">
+            <div class="img-gall">
+                <!-- carousal start -->
+                <div id="myCarousel-8" class="carousel slide" data-ride="carousel"> 
+                  <div class="carousel-inner">
+                    <div class="item active"><img src="projects/property-scouts/home.png" alt="Homepage" style="width:100%;"></div>
+                    <div class="item"><img src="projects/property-scouts/other.png" alt="Employment" style="width:100%;"></div>
+                    <div class="item"><img src="projects/property-scouts/signup.png" alt="Falcons" style="width:100%;"></div>
+                    <div class="item"><img src="projects/property-scouts/tablet.png" alt="Tablet" style="width:100%;"></div>
+                    <div class="item"><img src="projects/property-scouts/mobile.png" alt="Mobile" style="width:100%;"></div>
+                  </div>
+                  <a class="left carousel-control" href="#myCarousel-8" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span></a>
+                  <a class="right carousel-control" href="#myCarousel-8" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span></a>
+                </div>
+                <!-- carousal end -->
+            </div>
+            <div class="description-box">
+              <h4 class="project-info">Project Info:</h4>
+              <p>WordPress website for a US client that helps investors, property insurance agents, and lending professionals verify property records and connect with US real estate owners.</p>
+              <p>The website showcases the services of the agency, displays samples of reports provided, testimonials and links to the web application for delivery of fresh, accurate real estate and property data.</p>
+              <h4 class="project-detail">Project Details:</h4>
+              <ul class="list-style-2">
+                <li><span class="text-dark font-weight-600 me-2">Technologies:</span>HTML, CSS, JQuery, Javascript</li>
+                <li><span class="text-dark font-weight-600 me-2">Industry:</span>Design</li>
+                <li><span class="text-dark font-weight-600 me-2">URL:</span>
+                  <a href="https://propertyscout.io/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+              <a class="popup-modal-dismiss">×</a>
+            </div>
+          </div>
+
+        </div><!-- modal-08 End -->
+
+       </div> <!-- hide portfolio end -->
+
+       <div class="portfolio-btn-" style="text-align: center;">
+         <div id="load-more" class="portfolio-more">Load More</div>
+         <a id="show-more" href="portfolios.html" class="portfolio-more">Show More</a>
+       </div>
+  
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact reveal">
+      <div class="container">
+
+        <div class="section-title">
+          <p class="bg-text">contact</p>
+          <h2 class="">get in touch</h2>
+        </div>
+
+        <div class="row">
+					<div class="col-md-12">
+						<div class="contact-details text-center">
+						
+							<div class="contact-category">
+								<div class="mail">
+									<h4>Mail :</h4>
+									<h2><a href="mailto:saishpandit10@gmail.com" target="_blank">Saishpandit@gmail.com</a></h2>
+								</div>
+							</div>
+							
+							<div class="contact-category">
+								<div class="phone">
+									<h4>Linked In :</h4>
+									<h5><a href="https://www.linkedin.com/in/saish-pandit-27b488238/" target="_blank">/in/saish-pandit-27b488238/</a></h5>
+								</div>
+							</div>
+							
+							<div class="contact-category">
+								<div class="social">
+									<h4>Social Media :</h4>
+									<a href="https://www.facebook.com/saishp/" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="https://twitter.com/SaIsHP_"><i class="fa fa-twitter" target="_blank"></i></a>
+									<a href="https://www.instagram.com/_saishh/"><i class="fa fa-instagram" target="_blank"></i></a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/magnific-popup.js"></script>
+  <script src="assets/js/init.js"></script>
 
 </body>
+
 </html>
