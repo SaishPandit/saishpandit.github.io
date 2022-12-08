@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: #9C1F1F;
+  color: #969C1F;
   text-decoration: none;
 }
 a:hover{
@@ -31,7 +31,7 @@ a:hover{
   overflow: hidden;
 }
 .font-primary{
-  color: #9C1F1F;
+  color: #969C1F;
   font-weight: bold;
 }
 
@@ -75,7 +75,7 @@ li,p{
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #9C1F1F;
+  background: #969C1F;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -91,7 +91,7 @@ li,p{
 
 .back-to-top:hover {
   box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
-  background: #9C1F1F;
+  background: #969C1F;
   color: #fff;
 }
 
@@ -155,7 +155,7 @@ li,p{
 }
 
 #header .profile .social-links a:hover {
-  background: #9C1F1F;
+  background: #969C1F;
   color: #fff;
   text-decoration: none;
 }
@@ -231,7 +231,7 @@ li,p{
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #9C1F1F;
+  color: #969C1F;
 }
 
 /* Mobile Navigation */
@@ -244,7 +244,7 @@ li,p{
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #9C1F1F;
+  background-color: #969C1F;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -302,7 +302,7 @@ li,p{
 .scroll-down h5{margin-bottom: 6em;text-transform: capitalize;}
 
 .scroll-down a:hover {
-  color:#9C1F1F;
+  color:#969C1F;
 }
 
 .scroll-down .box span{
@@ -365,7 +365,7 @@ li,p{
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #9C1F1F;
+  border-bottom: 3px solid #969C1F;
 }
 
 @media (min-width: 1024px) {
@@ -421,7 +421,7 @@ section {
   display: block;
   width: 150px;
   height: 3px;
-  background: #9C1F1F;
+  background: #969C1F;
   margin: auto;
 
 }
@@ -429,7 +429,7 @@ section {
 .hr-tag{
   margin-right: auto!important;
   margin-left: auto!important;
-  border-color: #9C1F1F;
+  border-color: #969C1F;
   width: 80px;
   border-width: 3px;
 }
@@ -453,8 +453,8 @@ section {
   border-width: 2px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: #9C1F1F;
-  border-color: #9C1F1F;
+  background-color: #969C1F;
+  border-color: #969C1F;
 }
 
 .btn:hover {
@@ -462,8 +462,8 @@ section {
   box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: #9C1F1F;
-  border-color: #9C1F1F;
+  background-color: #969C1F;
+  border-color: #969C1F;
 }
 .bg-text{
   text-transform: uppercase;
@@ -479,8 +479,8 @@ section {
   box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: #9C1F1F;
-  border-color: #9C1F1F;
+  background-color: #969C1F;
+  border-color: #969C1F;
 }
 
 .sec-title{
@@ -542,7 +542,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #9C1F1F;
+  color: #969C1F;
   line-height: 0;
 }
 
@@ -683,15 +683,15 @@ section {
   cursor: pointer;
   display: inline;
   margin-top: 2em;
-  border: 1px solid #9C1F1F;
+  border: 1px solid #969C1F;
   background: transparent;
-  color: #9C1F1F;
+  color: #969C1F;
 }
 .portfolio-more:hover{
   box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
   color: #fff;
-  background-color: #9C1F1F;
-  border-color: #9C1F1F;
+  background-color: #969C1F;
+  border-color: #969C1F;
 
 }
 .item-wrap {
@@ -849,7 +849,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #9C1F1F;
+  color: #969C1F;
   float: left;
   line-height: 0;
 }
@@ -900,8 +900,8 @@ section {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   content: "" !important;
-  color: #9C1F1F;
-  background: #9C1F1F;
+  color: #969C1F;
+  background: #969C1F;
   width: 0;
   height: 100%;
   box-sizing: border-box;
@@ -944,7 +944,7 @@ section {
 .skills ul i {
   font-size: 16px;
   margin-right: 15px;
-  color: #9C1F1F;
+  color: #969C1F;
   line-height: 0;
 }
 
@@ -962,7 +962,7 @@ section {
   text-transform: capitalize;
 }
 .scroll-dow a:hover {
-  color: #9C1F1F;
+  color: #969C1F;
 }
 .scroll-dow .box span{
 	display: block;
@@ -989,7 +989,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #9C1F1F;
+  background-color: #969C1F;
 }
 
 /*--------------------------------------------------------------
@@ -1000,7 +1000,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #9C1F1F;
+  color: #969C1F;
 }
 
 .resume .resume-item {
@@ -1090,7 +1090,7 @@ section {
 	-moz-transition:.3s ease-in-out;
 }
 .contact-details .contact-category .social a :hover{
-    color:#9C1F1F;
+    color:#969C1F;
 }
 
 @-webkit-keyframes animate-loading {
