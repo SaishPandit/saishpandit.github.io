@@ -1,9 +1,0 @@
-Property scouts
-
-WordPress website for a US client that helps investors, property insurance agents, and lending professionals verify property records and connect with US real estate owners.
- 
-The website showcases the services of the agency, displays samples of reports provided, testimonials and links to the web application for delivery of fresh, accurate real estate and property data.
-
-html css javascript jquery
-
-https://propertyscout.io/
